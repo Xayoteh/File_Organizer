@@ -50,7 +50,7 @@ for item in PATH.iterdir():
         continue
 
     ext = item.suffix
-    # Ignore files without extension
+    # Ignore files without a valid extension
     if not ext in ext_dir:
         continue
 
